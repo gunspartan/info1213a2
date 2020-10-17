@@ -1,0 +1,196 @@
+/** General Styling **/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+/** Navbar **/
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #c3dbc5;
+}
+
+/** Hero Section **/
+
+.jumbotron {
+  text-align: center;
+  height: 90vh;
+  background: #fff;
+}
+
+.jumbotron img {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  margin: 5rem;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.jumbotron a {
+  color: #000;
+  background: #c3dbc5;
+  border: none;
+  border-radius: 5rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.jumbotron a:hover {
+  background: #8ca58e;
+}
+
+/** Skills section **/
+.skills {
+  background: #c3dbc5;
+  padding-bottom: 3rem;
+}
+
+.skills h2 {
+  padding: 3rem 0 2rem 0;
+}
+.skills .row {
+  padding-bottom: 2rem;
+}
+
+.skills .card {
+  padding: 1.3rem;
+}
+
+.skills .card-title {
+  font-size: 1.5rem;
+}
+
+/** Education & Experience Section **/
+.education {
+  margin: 2rem 0 3rem 0;
+  padding-bottom: 7rem;
+}
+
+.education li {
+  list-style: none;
+}
+
+.education h2 {
+  padding: 3rem 0 2rem 0;
+}
+
+.education h3 {
+  font-weight: bold;
+}
+
+/** Contact Section **/
+.contact {
+  background: #c3dbc5;
+  padding: 5rem 0 7rem 0;
+}
+
+.contact-info {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.contact-info h3 {
+  font-size: 1.3rem;
+}
+
+/** Form **/
+.contact button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.contact button:hover {
+  background: #000;
+}
+
+/** Footer **/
+.footer {
+  background: #8ca58e;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+
+.copyright {
+  margin-top: 2rem;
+}
+
+.newsletter {
+  margin-top: 1rem;
+}
+
+/** Portfolio Page **/
+.recent-projects {
+  background: #c3dbc5;
+}
+
+.recent-projects h1 {
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 2rem;
+}
+
+.carousel {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  width: 80%;
+  margin: auto;
+}
+
+.other-projects {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.other-projects h2 {
+  margin-bottom: 3rem;
+}
+
+.other-projects .card {
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.other-projects .card-title {
+  margin-bottom: 3rem;
+}
+
+.other-projects .btn {
+  background: #c3dbc5;
+  margin-left: 0.2rem;
+}
+
+.other-projects .dropdown .btn {
+  background: #000;
+  color: #fff;
+}
+
+/** Media Queries **/
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 100%;
+    margin-bottom: 10rem;
+  }
+
+  .skills .row {
+    padding-bottom: 0;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+}
